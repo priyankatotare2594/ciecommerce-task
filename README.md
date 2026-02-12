@@ -1,9 +1,8 @@
-# 🛒 CodeIgniter E-commerce Task
+#  CodeIgniter E-commerce Task
 
 This is a backend E-commerce application developed using the CodeIgniter 3 framework.  
 The project demonstrates product management with multiple image upload functionality using proper MVC architecture and relational database structure.
 
----
 
 ##  Features
 
@@ -15,7 +14,6 @@ The project demonstrates product management with multiple image upload functiona
 - Relational Database (Products & Product Images)
 - MVC Architecture Implementation
 
----
 
 ##  Technology Used
 
@@ -27,7 +25,7 @@ The project demonstrates product management with multiple image upload functiona
 - Bootstrap
 - XAMPP (Apache & MySQL)
 
----
+
 
 ##  Database Details
 
@@ -47,54 +45,52 @@ The project demonstrates product management with multiple image upload functiona
 - image_path
 - created_at
 
----
 
 ##  Installation & Setup
 
 1. Clone the repository:
 
-```
+
 git clone https://github.com/priyankatotare2594/ciecommerce-task.git
-```
+
 
 2. Move the project folder to:
 
-```
+
 C:\xampp\htdocs\
-```
+
 
 3. Open phpMyAdmin and create a new database:
 
-```
+
 ciecommerce_db
-```
+
 
 4. Import the SQL file into the database (if provided).
 
 5. Configure database settings in:
 
-```
+
 application/config/database.php
-```
+
 
 Update credentials:
 
-```
+
 'hostname' => 'localhost',
 'username' => 'root',
 'password' => '',
 'database' => 'ciecommerce_db',
-```
+
 
 6. Start Apache and MySQL from XAMPP.
 
 7. Run the project in browser:
 
-```
-http://localhost/ciecommerce-task/
-```
 
----
+http://localhost/ciecommerce-task/
+
+
 
 ##  Folder Structure
 
@@ -103,9 +99,6 @@ http://localhost/ciecommerce-task/
 - uploads/      → Product images
 - assets/       → CSS, JS, Bootstrap files
 
----
-
-##  Developed By
 
 **Priyanka Lende**  
-Junior Software Developer
+Software Developer
